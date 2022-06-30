@@ -1,4 +1,4 @@
-package me.syntheticdev.resourcemanager;
+package com.github.syntheticdev.resourcemanager;
 
 import org.bukkit.plugin.java.JavaPlugin;
 

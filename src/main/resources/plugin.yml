@@ -1,5 +1,5 @@
 name: ResourceManager
 version: '${project.version}'
-main: me.syntheticdev.resourcemanager.ResourceManager
+main: com.github.syntheticdev.resourcemanager.ResourceManager
 api-version: 1.19
 authors: [ SyntheticDev ]
