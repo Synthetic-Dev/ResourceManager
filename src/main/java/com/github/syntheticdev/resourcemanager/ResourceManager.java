@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public final class ResourceManager extends JavaPlugin {
     private static ResourceManager plugin;
-    private static ArrayList<String> resources;
+    private static ArrayList<String> resources = new ArrayList<>();
 
     public static ResourceManager getPlugin() {
         return plugin;
@@ -28,6 +28,8 @@ public final class ResourceManager extends JavaPlugin {
     @Override
     public void onEnable() {
         plugin = this;
+
+        this.getLogger().info("Resources: " + getResources());
 
         PluginManager manager = Bukkit.getPluginManager();
         manager.registerEvents(new PlayerJoinListener(), this);
