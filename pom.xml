@@ -16,6 +16,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <organization>
+        <name>SyntheticDev</name>
+        <url>https://github.com/Synthetic-Dev</url>
+    </organization>
+
     <build>
         <plugins>
             <plugin>
